@@ -1,0 +1,8 @@
+---
+name: Cluster Status
+description: |-
+  The Open OnDemand System Status App
+category: Slurm Job
+icon: fa://tachometer
+url: system-status
+new_window: false

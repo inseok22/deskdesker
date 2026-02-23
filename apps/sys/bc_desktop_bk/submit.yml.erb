@@ -1,0 +1,8 @@
+---
+cluster: "tone4slurm"
+batch_connect:
+  template: vnc
+script:
+  native:
+    - "-N"
+    - "<%= bc_num_slots.blank? ? 1 : bc_num_slots.to_i %>"

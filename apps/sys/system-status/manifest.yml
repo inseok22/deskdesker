@@ -1,0 +1,8 @@
+---
+name: 클러스터 상태
+description: |-
+  The Open OnDemand System Status App
+category: Slurm 작업
+icon: fa://tachometer
+url: system-status
+new_window: false

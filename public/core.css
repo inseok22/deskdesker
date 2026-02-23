@@ -1,0 +1,31 @@
+/* Custom overrides for OOD dashboard and other pages.
+   Safe to edit in production; no asset build required. */
+
+/* Top navbar: align brand and menu items, add spacing between them */
+.navbar .navbar-nav {
+  align-items: center;
+}
+
+.navbar .navbar-brand {
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  margin-right: 6rem;
+  margin-left: 1.5rem;
+}
+
+.navbar .navbar-nav .nav-link,
+.navbar .navbar-nav .dropdown-toggle {
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+}
+
+/* 윗 아이콘 터치 범위 통일 내 대화형 세션은 제외 */
+.navbar .navbar-nav .nav-link:not([title="내 대화형 세션"]) {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 7.5rem;  /* 이 값으로 버튼 폭 통일 */
+  padding: 0.55rem 0.75rem;
+  line-height: 1.6;
+  text-align: center;
+}

@@ -1,0 +1,60 @@
+cluster:
+  widget: select
+  options:
+    - slurm
+
+job_name:
+  label: Job name
+  widget: text_field
+  value: my_job_name
+
+nodes:
+  label: Number of nodes
+  widget: number_field
+  value: 1
+  min: 1
+
+cores:
+  label: Number of cores
+  widget: number_field
+  value: 1
+  min: 1
+
+gpus:
+  label: Number of GPUs
+  widget: number_field
+  value: 0
+  min: 0
+
+walltime:
+  label: Walltime
+  widget: time_field
+  value: "01:00:00"
+
+partition:
+  label: queues
+  widget: check_box
+  options:
+    - ["short", "short"]
+    - ["gpu", "gpu"]
+    - ["router", "router"]
+
+project:
+  label: Project Code
+  widget: select
+  options:
+    - ["edu_class", "University class work and projects"]
+    - ["research", "Research project"]
+
+email:
+  label: Email address
+  widget: text_field
+
+mail_events:
+  label: Receive email for job events
+  widget: check_box
+  options:
+    - ["BEGIN", "begin"]
+    - ["END", "end"]
+    - ["FAIL", "abort"]
+

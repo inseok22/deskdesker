@@ -1,0 +1,25 @@
+#!/bin/bash
+#SBATCH --job-name=<%= job_name %>
+#SBATCH --nodes=<%= nodes %>
+#SBATCH --ntasks-per-node=<%= cores %>
+#SBATCH --time=<%= walltime %>
+#SBATCH --account=<%= project %>
+
+<% if gpus.to_i > 0 %>
+#SBATCH --gres=gpu:<%= gpus %>
+<% end %>
+
+<% partition.each do |p| %>
+#SBATCH --partition=<%= p %>
+<% end %>
+
+<% if email.present? %>
+#SBATCH --mail-user=<%= email %>
+#SBATCH --mail-type=<%= mail_events.join(',') %>
+<% end %>
+
+echo "Job started on $(hostname)"
+echo "User: $USER"
+
+# === USER CODE HERE ===
+

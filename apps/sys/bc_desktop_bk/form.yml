@@ -1,0 +1,37 @@
+---
+cluster: "tslurm-desk"
+attributes:
+  desktop:
+    label: "데스크톱 환경 선택"
+    widget: select
+    options:
+      - "gnome"
+      - "kde"
+      - "mate"
+      - "xfce"
+  bc_vnc_idle: 0
+  bc_vnc_resolution:
+    required: true
+    label: "해상도"
+  bc_account:
+    label: "계정"
+  bc_num_hours:
+    label: "사용 시간"
+  bc_num_slots:
+    label: "노드 수"
+  bc_queue:
+    label: "파티션"
+  bc_email_on_started:
+    label: "세션 시작 시 이메일 받기"
+  node_type: null
+
+form:
+  - bc_vnc_idle
+  - desktop
+  - bc_account
+  - bc_num_hours
+  - bc_num_slots
+  - node_type
+  - bc_queue
+  - bc_vnc_resolution
+  - bc_email_on_started

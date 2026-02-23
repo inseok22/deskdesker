@@ -1,0 +1,15 @@
+<footer class="d-flex m-0 mt-4 justify-content-between align-items-center p-4">
+  <div class="me-2">
+    <%= link_to "https://www.tone4ict.co.kr" do %>
+      <%=
+        image_tag(
+          "https://www.tone4ict.co.kr/theme/tone4ict/img/main/logo1.png",
+          class: "footer-logo",
+          alt: "Powered by tone4ict",
+          height: "40px",
+        )
+      %>
+    <% end %>
+  </div>
+  <span>Tone4Slurm: 0.9</span>
+</footer>

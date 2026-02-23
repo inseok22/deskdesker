@@ -1,0 +1,8 @@
+/* Custom overrides for OOD Files app.
+   Safe to edit in production; no asset build required. */
+
+/* Files app: adjust file navigation alignment */
+
+.nav-link.d.bg-light {
+    margin-top: 1rem; /* 값 키우면 더 내려감 */
+}

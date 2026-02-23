@@ -1,0 +1,8 @@
+---
+name: Shell
+category: 웹 쉘
+icon: fa://terminal
+description: |-
+  TSlurmDesk web-based terminal
+role: shell
+new_window: true

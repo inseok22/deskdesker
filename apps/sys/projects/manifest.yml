@@ -1,0 +1,9 @@
+---
+name: 작업 프로젝트
+description: |-
+  The Open OnDemand Project Manager
+category: Slurm 작업
+icon: fa://wrench
+role: projects
+url: projects
+new_window: false

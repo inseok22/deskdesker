@@ -1,0 +1,9 @@
+---
+name: Home
+description: |-
+  The Open OnDemand Files App
+category: 파일
+icon: fa://folder
+role: files
+url: files
+new_window: false

@@ -1,0 +1,11 @@
+---
+name: 데스크톱
+icon: fa://desktop
+category: 대화형 앱 
+#category: Interactive Apps
+subcategory: 데스크톱
+role: batch_connect
+description: |
+  앱은 하나 이상의 컴퓨팅 노드에서 대화형 데스크톱을 실행합니다
+  해당 노드가 제공하는 리소스에 대한 전체 엑세스 권한을 갖게 됩니다
+  대화형 배치 작업과 유사합니다

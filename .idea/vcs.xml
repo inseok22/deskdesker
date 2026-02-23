@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apps/sys/OpenComposer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apps/sys/jupyter_lab" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apps/sys/jupyter_notebook" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apps/sys/ood_core" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apps/sys/ood_job" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apps/sys/vscode" vcs="Git" />
+  </component>
+</project>
