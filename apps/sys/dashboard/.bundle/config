@@ -1,4 +1,5 @@
 ---
 BUNDLE_RETRY: "2"
 BUNDLE_JOBS: "4"
-BUNDLE_WITHOUT: "doc:test:package:development"
+BUNDLE_WITHOUT: "doc:package"
+BUNDLE_WITH: "development:test"
