@@ -24,8 +24,12 @@
     "sass": "1.78.0",
     "sweetalert2": "10.16.9"
   },
+  "devDependencies": {
+    "eslint": "^8.57.0"
+  },
   "scripts": {
     "build": "node esbuild.config.js",
-    "build:css": "sass ./app/assets/stylesheets/application.scss ./app/assets/builds/application.css --load-path=node_modules"
+    "build:css": "sass ./app/assets/stylesheets/application.scss ./app/assets/builds/application.css --load-path=node_modules",
+    "lint": "eslint app/javascript/**/*.js"
   }
 }
